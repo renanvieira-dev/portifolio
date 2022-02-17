@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifólio | Renan Vieira</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/ea591fcd9b.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./src/img/icon.ico" type="image/x-icon">
+</head>
+
+<body class="bg-zinc-900 justify-center items-center">
+    <div class="content flex w-screen h-screen items-center">
+        <div id="perfil" class="flex flex-col justify-center items-center w-6/12" data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine">
+            <img id="img" class="w-[29rem] rounded-xl my-6" src="./src/img/foto.jpeg" alt="Foto">
+            <h1 class="flex justify-center text-2xl font-bold text-white">Renan Vieira Nascimento</h1>
+            <h1 class="flex justify-center text-xl font-thin text-white">DEV FRONT-END</h1>
+            <div class="text-white text-5xl flex justify-center my-2">
+                <a target="_blank" href="https://www.linkedin.com/in/renan-vieira-5987481ab/" class="px-1 hover:text-sky-600 transition ease-in-out hover:bg-white rounded-md"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a target="_blank" href="https://www.instagram.com/renan.vieiraa/" class="px-1 hover:text-orange-400 transition ease-in-out hover:bg-white rounded-md"><i
+                        class="fa-brands fa-instagram-square"></i></a>
+                <a target="_blank" href="https://www.github.com/renanvieira-dev" class="px-1 hover:text-zinc-900 transition ease-in-out hover:bg-white rounded-md"><i
+                        class="fa-brands fa-github-square"></i></a>
+            </div>
+        </div>
+        <div id="descricao" class="w-6/12 p-10 flex flex-col items-center" data-aos="fade-left"
+        data-aos-anchor="#example-anchor"
+        data-aos-offset="500"
+        data-aos-duration="500">
+            <h1 id="write" class="gradient-text text-white font-bold text-3xl">Olá, meu nome é Renan, que bom ver você por aqui!</h1>
+            <p class="text-white py-5 pr-10">Se você veio até aqui, então quer conhecer meu trabalho e a pessoa que sou, vamos lá</p>
+            <p class="text-white pb-5">Tenho 24 anos de idade, sou casado e com uma filha linda haha. Sou uma pessoa
+                fascinada por tecnologia e apaixado por programação, meus serviços consistem em realizar o desenvolvimento
+                de sites e aplicativos mobile, buscando assim ajudar você melhorar o alcance e divulgação do seu negócio,
+                espero que possamos trabalhar juntos construindo o futuro repleto de conquistas profissionais e pessoais</p>
+            <div id="contato" class="flex flex-col justify-center items-center">
+                <p class="text-white text-center">Fale comigo e faça seu orçamento clicando no botão abaixo:</p>
+                <a id="btn" class="my-5" target="_blank" href="https://api.whatsapp.com/send?phone=5592993150129&text=">Clique aqui</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="./src/js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
